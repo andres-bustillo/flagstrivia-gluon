@@ -1,0 +1,32 @@
+[mar nov 17 20:01:57 CST 2026][INFO] ==================== COMPILE TASK ====================
+[mar nov 17 20:01:58 CST 2026][INFO] We will now compile your code for arm64-apple-ios. This may take some time.
+[mar nov 17 20:01:58 CST 2026][FINE] Processing JavaStatic dependencies at /Users/andy/.gluon/substrate/javaStaticSdk/18-ea+prep18-9/ios-arm64/staticjdk/lib/static
+[mar nov 17 20:01:58 CST 2026][FINE] Processing JavaFXStatic dependencies at /Users/andy/.gluon/substrate/javafxStaticSdk/21-ea+11.3/ios-arm64/sdk/lib
+[mar nov 17 20:01:58 CST 2026][INFO] Downloading Java Static Libs...
+[mar nov 17 20:01:58 CST 2026][FINE] Processing zip file: url = https://download2.gluonhq.com/substrate/staticjdk/staticjdk-ios-arm64-gvm-18-ea+prep18-9.zip, zip = /Users/andy/.gluon/substrate/staticjdk-ios-arm64-gvm-18-ea+prep18-9.zip, subDir = javaStaticSdk, levels = [18-ea+prep18-9, ios-arm64], md5 = javaStaticSdk-ios-arm64.md5
+[mar nov 17 20:02:02 CST 2026][INFO] Java static libs downloaded successfully
+[mar nov 17 20:02:02 CST 2026][INFO] Downloading JavaFX static libs...
+[mar nov 17 20:02:02 CST 2026][FINE] Processing zip file: url = https://download2.gluonhq.com/substrate/javafxstaticsdk/openjfx-21-ea+11.3-ios-arm64-static.zip, zip = /Users/andy/.gluon/substrate/openjfx-21-ea+11.3-ios-arm64-static.zip, subDir = javafxStaticSdk, levels = [21-ea+11.3, ios-arm64], md5 = javafxStaticSdk-ios-arm64.md5
+[mar nov 17 20:03:27 CST 2026][INFO] JavaFX static libs downloaded successfully
+[mar nov 17 20:03:27 CST 2026][FINE] Setup dependencies done
+[mar nov 17 20:03:27 CST 2026][FINE] Extracting native libs to: /Users/andy/Documents/code/flagstrivia-gluon/target/gluonfx/arm64-ios/gvm/lib
+[mar nov 17 20:03:27 CST 2026][FINE] Extracting native libs from jar: /Users/andy/Documents/code/flagstrivia-gluon/lib/gson-2.15.0.jar
+[mar nov 17 20:03:27 CST 2026][FINE] Extracting native libs from jar: /Users/andy/.gluon/substrate/javafxStaticSdk/21-ea+11.3/ios-arm64/sdk/lib/javafx.base.jar
+[mar nov 17 20:03:27 CST 2026][FINE] Extracting native libs from jar: /Users/andy/.gluon/substrate/javafxStaticSdk/21-ea+11.3/ios-arm64/sdk/lib/javafx.controls.jar
+[mar nov 17 20:03:27 CST 2026][FINE] Extracting native libs from jar: /Users/andy/.gluon/substrate/javafxStaticSdk/21-ea+11.3/ios-arm64/sdk/lib/javafx.fxml.jar
+[mar nov 17 20:03:27 CST 2026][FINE] Extracting native libs from jar: /Users/andy/.gluon/substrate/javafxStaticSdk/21-ea+11.3/ios-arm64/sdk/lib/javafx.graphics.jar
+[mar nov 17 20:03:27 CST 2026][FINE] PB Command for sdk: xcrun --sdk iphoneos --show-sdk-path
+[mar nov 17 20:03:27 CST 2026][FINE] Start process sdk...
+[mar nov 17 20:03:27 CST 2026][FINE] [SUB] xcrun: error: SDK "iphoneos" cannot be located
+[mar nov 17 20:03:27 CST 2026][FINE] [SUB] xcrun: error: SDK "iphoneos" cannot be located
+[mar nov 17 20:03:27 CST 2026][FINE] [SUB] xcrun: error: Failed to open property list '/Users/andy/Documents/code/flagstrivia-gluon/iphoneos/SDKSettings.plist'
+[mar nov 17 20:03:27 CST 2026][FINE] [SUB] xcrun: error: SDK "iphoneos" cannot be located
+[mar nov 17 20:03:27 CST 2026][FINE] [SUB] xcrun: error: unable to lookup item 'Path' in SDK 'iphoneos'
+[mar nov 17 20:03:27 CST 2026][FINE] Result for sdk: 1
+[mar nov 17 20:03:27 CST 2026][SEVERE] Process sdk failed with result: 1
+Check the log files under /Users/andy/Documents/code/flagstrivia-gluon/target/gluonfx/arm64-ios/gvm/log
+And please check https://docs.gluonhq.com/ for more information.
+[mar nov 17 20:03:27 CST 2026][INFO] Logging process [sdk] to file: /Users/andy/Documents/code/flagstrivia-gluon/target/gluonfx/log/process-sdk-1794967407352.log
+[mar nov 17 20:03:27 CST 2026][FINE] Looking for resource: /native/ios/dummy.c
+[mar nov 17 20:03:27 CST 2026][FINE] Looking for resource: /native/ios/AppDelegate.m
+[mar nov 17 20:03:27 CST 2026][FINE] Looking for resource: /native/ios/JvmFuncsFallbacks.c

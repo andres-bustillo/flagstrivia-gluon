@@ -1,0 +1,20 @@
+Process
+=======
+sdk
+
+Command Line
+============
+xcrun --sdk iphoneos --show-sdk-path
+
+Output
+======
+xcrun: error: SDK "iphoneos" cannot be located
+xcrun: error: SDK "iphoneos" cannot be located
+xcrun: error: Failed to open property list '/Users/andy/Documents/code/flagstrivia-gluon/iphoneos/SDKSettings.plist'
+xcrun: error: SDK "iphoneos" cannot be located
+xcrun: error: unable to lookup item 'Path' in SDK 'iphoneos'
+
+
+Result
+======
+result: 1
