@@ -58,14 +58,26 @@
                     <mainClass>aplicacion.App</mainClass>
                     <target>${gluonfx.target}</target>
                     
-                    <!-- ¡AQUÍ ESTÁ LA SOLUCIÓN! 
-                         Dile a GraalVM que mantenga estas clases para Gson -->
+                    <!-- 1. Reflexión para Gson -->
                     <reflectionList>
                         <list>aplicacion.Pais</list>
                         <list>aplicacion.Pregunta</list>
                         <list>aplicacion.PreguntaBandera</list>
                         <list>aplicacion.PreguntaCapital</list>
                     </reflectionList>
+
+                    <!-- 2. ¡AQUÍ ESTÁ LA SOLUCIÓN! Incluir recursos en el nativo -->
+                    <resources>
+                        <resource>
+                            <pattern>.*\.css$</pattern>
+                        </resource>
+                        <resource>
+                            <pattern>.*\.png$</pattern>
+                        </resource>
+                        <resource>
+                            <pattern>.*\.json$</pattern>
+                        </resource>
+                    </resources>
 
                 </configuration>
             </plugin>

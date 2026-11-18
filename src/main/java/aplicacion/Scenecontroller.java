@@ -65,7 +65,7 @@ public class Scenecontroller {
     }
     public static void Trivia1(Stage stage){
         PreguntaBandera p1 = new PreguntaBandera();
-        String ruta= "banderas/" + p1.getPais().getBandera();
+        String ruta= "/aplicacion/banderas/" + p1.getPais().getBandera();
         Image ib=new Image(Scenecontroller.class.getResource(ruta).toExternalForm());
         ImageView vb= new ImageView(ib);
         vb.setFitHeight(150); 
