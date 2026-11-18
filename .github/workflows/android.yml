@@ -56,16 +56,20 @@ jobs:
         env:
           ANDROID_NDK: ${{ steps.setup-ndk.outputs.ndk-path }}
 
-      # 7. Preparar el APK
+      # 7. Preparar el APK (búsqueda dinámica)
       - name: Make staging directory
-        run: mkdir staging
+        run: mkdir -p staging
 
-      - name: Copy packages to staging
-        run: cp -r target/gluonfx/aarch64-android/gvm/flagstrivia-gluon.* staging
+      - name: Copy APK to staging
+        run: |
+          # Busca cualquier archivo .apk generado y lo copia a staging
+          find target/gluonfx -name "*.apk" -exec cp {} staging/ \;
+          # Muestra qué archivos se copiaron (para depurar)
+          ls -la staging/
 
       # 8. Subir el artefacto
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: Flagstrivia-APK
-          path: staging
+          path: staging/
