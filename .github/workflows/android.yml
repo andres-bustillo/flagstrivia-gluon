@@ -47,12 +47,13 @@ jobs:
           sudo apt-get update
           sudo apt install -y libasound2-dev libavcodec-dev libavformat-dev libavutil-dev libgl-dev libgtk-3-dev libpango1.0-dev libxtst-dev
 
-      # 6. Compilar separando compile y link (workaround para el error ForceNoROSectionRelocations)
+      # 6. Compilar separando compile y link (workaround) + empaquetar
       - name: Gluon Build
         run: |
           export ANDROID_SDK=$ANDROID_HOME
           mvn -Pandroid gluonfx:compile
           mvn -Pandroid gluonfx:link
+          mvn -Pandroid gluonfx:package
         env:
           ANDROID_NDK: ${{ steps.setup-ndk.outputs.ndk-path }}
 
