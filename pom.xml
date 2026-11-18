@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- Cambiado a Java 17 para coincidir con el workflow -->
+        <!-- Java 17 para coincidir con el workflow y GraalVM -->
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <gluonfx.target>android</gluonfx.target>
@@ -29,7 +29,7 @@
             <artifactId>javafx-fxml</artifactId>
             <version>17</version>
         </dependency>
-        <!-- Gson (se mantiene igual) -->
+        <!-- Gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -57,8 +57,16 @@
                 <configuration>
                     <mainClass>aplicacion.App</mainClass>
                     <target>${gluonfx.target}</target>
-                    <!-- IMPORTANTE: Elimina o comenta cualquier ruta fija de graalvmHome.
-                         En CI, la acción de Gluon la detecta automáticamente. -->
+                    
+                    <!-- ¡AQUÍ ESTÁ LA SOLUCIÓN! 
+                         Dile a GraalVM que mantenga estas clases para Gson -->
+                    <reflectionList>
+                        <list>aplicacion.Pais</list>
+                        <list>aplicacion.Pregunta</list>
+                        <list>aplicacion.PreguntaBandera</list>
+                        <list>aplicacion.PreguntaCapital</list>
+                    </reflectionList>
+
                 </configuration>
             </plugin>
         </plugins>
@@ -70,6 +78,7 @@
             <url>https://nexus.gluonhq.com/nexus/content/repositories/releases/</url>
         </pluginRepository>
     </pluginRepositories>
+    
     <profiles>
         <profile>
             <id>android</id>

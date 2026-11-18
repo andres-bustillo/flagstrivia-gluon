@@ -24,8 +24,8 @@ public class Scenecontroller {
             malas++;
         }
         PreguntaBandera p1 = new PreguntaBandera();
-        String ruta= "banderas/" + p1.getPais().getBandera();
-        Image ib=new Image(Scenecontroller.class.getResource(ruta).toExternalForm());
+        String ruta = "/aplicacion/banderas/" + p1.getPais().getBandera();
+        Image ib = new Image(Scenecontroller.class.getResource(ruta).toExternalForm());
         ImageView vb= new ImageView(ib);
         vb.setFitHeight(150); 
         vb.setPreserveRatio(true);
@@ -59,7 +59,7 @@ public class Scenecontroller {
         VBox raiz=new VBox(etiqueta,boton1);
         raiz.setAlignment(Pos.CENTER);
         Scene escena=new Scene(raiz,Color.MEDIUMPURPLE);
-        escena.getStylesheets().add(Scenecontroller.class.getResource("estilos.css").toExternalForm());
+        escena.getStylesheets().add(Scenecontroller.class.getResource("/aplicacion/estilos.css").toExternalForm());
         stage.setScene(escena);
         stage.show();
     }

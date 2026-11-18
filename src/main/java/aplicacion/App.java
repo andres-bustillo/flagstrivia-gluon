@@ -8,6 +8,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.geometry.Pos;
 
+
 public class App extends Application {
 
     @Override
@@ -19,8 +20,9 @@ public class App extends Application {
         VBox raiz=new VBox(etiqueta,boton1);
         raiz.setAlignment(Pos.CENTER);
         Scene escena=new Scene(raiz);
-        escena.getStylesheets().add(getClass().getResource("estilos.css").toExternalForm());
-        Image icon = new Image(getClass().getResource("banderas/mx.png").toExternalForm());
+        // Añade la barra al principio de la ruta
+        escena.getStylesheets().add(getClass().getResource("/aplicacion/estilos.css").toExternalForm());
+        Image icon = new Image(getClass().getResource("/aplicacion/banderas/mx.png").toExternalForm());
         stage.getIcons().add(icon);
         stage.setTitle("Flags Trivia");
         stage.setWidth(600);

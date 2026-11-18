@@ -2,6 +2,8 @@ package aplicacion;
 import java.io.InputStreamReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.InputStream;
+
 import com.google.gson.Gson;
 
 public class Pais{
@@ -25,19 +27,32 @@ public class Pais{
         return capital;}
     public static void cargarDatos() {
         try{
-            File archivo=new File("src/aplicacion/datos.json");
-            FileInputStream is= new FileInputStream(archivo);
-            InputStreamReader lector=new InputStreamReader(is, "UTF-8");
-            Gson gson = new Gson();
-            Pais[] tmp = gson.fromJson(lector, Pais[].class);
-            if (tmp!=null){
-            for (Pais p:tmp){
-                new Pais(p.getNombre(),p.getBandera(),p.getCapital());
-            }}
-            lector.close();
-            System.out.println("Se cargaron "+contador+" banderas desde json");
-        }catch(Exception e){
-            System.out.println("error del json");
-            e.printStackTrace();
-        }}
+            InputStream is = Pais.class.getResourceAsStream("/aplicacion/datos.json");
+
+        // 2. Verificar que el archivo se encontró
+        if (is == null) {
+            System.out.println("¡ERROR! No se encontró /aplicacion/datos.json");
+            return;
+        }
+
+        // 3. Leer el JSON (ya no necesitas FileInputStream)
+        InputStreamReader lector = new InputStreamReader(is, "UTF-8");
+        Gson gson = new Gson();
+        Pais[] tmp = gson.fromJson(lector, Pais[].class);
+
+        if (tmp != null) {
+            for (Pais p : tmp) {
+                new Pais(p.getNombre(), p.getBandera(), p.getCapital());
+            }
+        }
+        
+        lector.close();
+        is.close();
+        System.out.println("Se cargaron " + contador + " banderas desde json");
+
+        } catch (Exception e) {
+        System.out.println("Error del json");
+        e.printStackTrace();
+        }
+    }
 }
