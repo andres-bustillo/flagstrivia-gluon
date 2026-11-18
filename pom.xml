@@ -11,22 +11,25 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
+        <!-- Cambiado a Java 17 para coincidir con el workflow -->
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <gluonfx.target>android</gluonfx.target>
     </properties>
 
     <dependencies>
+        <!-- JavaFX 17 -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>23</version>
+            <version>17</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>23</version>
+            <version>17</version>
         </dependency>
+        <!-- Gson (se mantiene igual) -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -43,11 +46,10 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <release>23</release>
+                    <release>17</release>
                 </configuration>
             </plugin>
 
-            <!-- Plugin ÚNICO de GluonFX -->
             <plugin>
                 <groupId>com.gluonhq</groupId>
                 <artifactId>gluonfx-maven-plugin</artifactId>
@@ -55,6 +57,8 @@
                 <configuration>
                     <mainClass>aplicacion.App</mainClass>
                     <target>${gluonfx.target}</target>
+                    <!-- IMPORTANTE: Elimina o comenta cualquier ruta fija de graalvmHome.
+                         En CI, la acción de Gluon la detecta automáticamente. -->
                 </configuration>
             </plugin>
         </plugins>
