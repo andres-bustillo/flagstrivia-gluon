@@ -16,7 +16,10 @@ jobs:
         uses: graalvm/setup-graalvm@v1
         with:
           java-version: '23'
-          distribution: 'graalvm'
+          # Especifica una versión de distribución concreta en lugar de 'graalvm'
+          distribution: 'graalvm-community' # o 'graalvm' si usas la de Oracle
+          # Añade la versión específica de GraalVM que quieres usar
+          version: '23.1.0' # Prueba con esta versión o la que sea compatible
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       # 2. Configurar Java 23
