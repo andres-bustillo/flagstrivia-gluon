@@ -1,0 +1,1018 @@
+[
+  {
+    "nombre": "Andorra",
+    "bandera": "ad.png"
+  },
+  {
+    "nombre": "Emiratos Árabes Unidos",
+    "bandera": "ae.png"
+  },
+  {
+    "nombre": "Afganistán",
+    "bandera": "af.png"
+  },
+  {
+    "nombre": "Antigua y Barbuda",
+    "bandera": "ag.png"
+  },
+  {
+    "nombre": "Anguila",
+    "bandera": "ai.png"
+  },
+  {
+    "nombre": "Albania",
+    "bandera": "al.png"
+  },
+  {
+    "nombre": "Armenia",
+    "bandera": "am.png"
+  },
+  {
+    "nombre": "Angola",
+    "bandera": "ao.png"
+  },
+  {
+    "nombre": "Antártida",
+    "bandera": "aq.png"
+  },
+  {
+    "nombre": "Argentina",
+    "bandera": "ar.png"
+  },
+  {
+    "nombre": "Samoa Americana",
+    "bandera": "as.png"
+  },
+  {
+    "nombre": "Austria",
+    "bandera": "at.png"
+  },
+  {
+    "nombre": "Australia",
+    "bandera": "au.png"
+  },
+  {
+    "nombre": "Aruba",
+    "bandera": "aw.png"
+  },
+  {
+    "nombre": "Islas Åland",
+    "bandera": "ax.png"
+  },
+  {
+    "nombre": "Azerbaiyán",
+    "bandera": "az.png"
+  },
+  {
+    "nombre": "Bosnia y Herzegovina",
+    "bandera": "ba.png"
+  },
+  {
+    "nombre": "Barbados",
+    "bandera": "bb.png"
+  },
+  {
+    "nombre": "Bangladés",
+    "bandera": "bd.png"
+  },
+  {
+    "nombre": "Bélgica",
+    "bandera": "be.png"
+  },
+  {
+    "nombre": "Burkina Faso",
+    "bandera": "bf.png"
+  },
+  {
+    "nombre": "Bulgaria",
+    "bandera": "bg.png"
+  },
+  {
+    "nombre": "Baréin",
+    "bandera": "bh.png"
+  },
+  {
+    "nombre": "Burundi",
+    "bandera": "bi.png"
+  },
+  {
+    "nombre": "Benín",
+    "bandera": "bj.png"
+  },
+  {
+    "nombre": "San Bartolomé",
+    "bandera": "bl.png"
+  },
+  {
+    "nombre": "Bermudas",
+    "bandera": "bm.png"
+  },
+  {
+    "nombre": "Brunéi",
+    "bandera": "bn.png"
+  },
+  {
+    "nombre": "Bolivia",
+    "bandera": "bo.png"
+  },
+  {
+    "nombre": "Caribe Neerlandés",
+    "bandera": "bq.png"
+  },
+  {
+    "nombre": "Brasil",
+    "bandera": "br.png"
+  },
+  {
+    "nombre": "Bahamas",
+    "bandera": "bs.png"
+  },
+  {
+    "nombre": "Bután",
+    "bandera": "bt.png"
+  },
+  {
+    "nombre": "Isla Bouvet",
+    "bandera": "bv.png"
+  },
+  {
+    "nombre": "Botsuana",
+    "bandera": "bw.png"
+  },
+  {
+    "nombre": "Bielorrusia",
+    "bandera": "by.png"
+  },
+  {
+    "nombre": "Belice",
+    "bandera": "bz.png"
+  },
+  {
+    "nombre": "Canadá",
+    "bandera": "ca.png"
+  },
+  {
+    "nombre": "Islas Cocos",
+    "bandera": "cc.png"
+  },
+  {
+    "nombre": "R.D. del Congo",
+    "bandera": "cd.png"
+  },
+  {
+    "nombre": "República Centroafricana",
+    "bandera": "cf.png"
+  },
+  {
+    "nombre": "Congo",
+    "bandera": "cg.png"
+  },
+  {
+    "nombre": "Suiza",
+    "bandera": "ch.png"
+  },
+  {
+    "nombre": "Costa de Marfil",
+    "bandera": "ci.png"
+  },
+  {
+    "nombre": "Islas Cook",
+    "bandera": "ck.png"
+  },
+  {
+    "nombre": "Chile",
+    "bandera": "cl.png"
+  },
+  {
+    "nombre": "Camerún",
+    "bandera": "cm.png"
+  },
+  {
+    "nombre": "China",
+    "bandera": "cn.png"
+  },
+  {
+    "nombre": "Colombia",
+    "bandera": "co.png"
+  },
+  {
+    "nombre": "Costa Rica",
+    "bandera": "cr.png"
+  },
+  {
+    "nombre": "Cuba",
+    "bandera": "cu.png"
+  },
+  {
+    "nombre": "Cabo Verde",
+    "bandera": "cv.png"
+  },
+  {
+    "nombre": "Curazao",
+    "bandera": "cw.png"
+  },
+  {
+    "nombre": "Isla de Navidad",
+    "bandera": "cx.png"
+  },
+  {
+    "nombre": "Chipre",
+    "bandera": "cy.png"
+  },
+  {
+    "nombre": "República Checa",
+    "bandera": "cz.png"
+  },
+  {
+    "nombre": "Alemania",
+    "bandera": "de.png"
+  },
+  {
+    "nombre": "Yibuti",
+    "bandera": "dj.png"
+  },
+  {
+    "nombre": "Dinamarca",
+    "bandera": "dk.png"
+  },
+  {
+    "nombre": "Dominica",
+    "bandera": "dm.png"
+  },
+  {
+    "nombre": "República Dominicana",
+    "bandera": "do.png"
+  },
+  {
+    "nombre": "Argelia",
+    "bandera": "dz.png"
+  },
+  {
+    "nombre": "Ecuador",
+    "bandera": "ec.png"
+  },
+  {
+    "nombre": "Estonia",
+    "bandera": "ee.png"
+  },
+  {
+    "nombre": "Egipto",
+    "bandera": "eg.png"
+  },
+  {
+    "nombre": "Sahara Occidental",
+    "bandera": "eh.png"
+  },
+  {
+    "nombre": "Eritrea",
+    "bandera": "er.png"
+  },
+  {
+    "nombre": "España",
+    "bandera": "es.png"
+  },
+  {
+    "nombre": "Etiopía",
+    "bandera": "et.png"
+  },
+  {
+    "nombre": "Finlandia",
+    "bandera": "fi.png"
+  },
+  {
+    "nombre": "Fiyi",
+    "bandera": "fj.png"
+  },
+  {
+    "nombre": "Islas Malvinas",
+    "bandera": "fk.png"
+  },
+  {
+    "nombre": "Micronesia",
+    "bandera": "fm.png"
+  },
+  {
+    "nombre": "Islas Feroe",
+    "bandera": "fo.png"
+  },
+  {
+    "nombre": "Francia",
+    "bandera": "fr.png"
+  },
+  {
+    "nombre": "Gabón",
+    "bandera": "ga.png"
+  },
+  {
+    "nombre": "Reino Unido",
+    "bandera": "gb.png"
+  },
+  {
+    "nombre": "Inglaterra",
+    "bandera": "gb-eng.png"
+  },
+  {
+    "nombre": "Irlanda del Norte",
+    "bandera": "gb-nir.png"
+  },
+  {
+    "nombre": "Escocia",
+    "bandera": "gb-sct.png"
+  },
+  {
+    "nombre": "Gales",
+    "bandera": "gb-wls.png"
+  },
+  {
+    "nombre": "Granada",
+    "bandera": "gd.png"
+  },
+  {
+    "nombre": "Georgia",
+    "bandera": "ge.png"
+  },
+  {
+    "nombre": "Guayana Francesa",
+    "bandera": "gf.png"
+  },
+  {
+    "nombre": "Guernsey",
+    "bandera": "gg.png"
+  },
+  {
+    "nombre": "Ghana",
+    "bandera": "gh.png"
+  },
+  {
+    "nombre": "Gibraltar",
+    "bandera": "gi.png"
+  },
+  {
+    "nombre": "Groenlandia",
+    "bandera": "gl.png"
+  },
+  {
+    "nombre": "Gambia",
+    "bandera": "gm.png"
+  },
+  {
+    "nombre": "Guinea",
+    "bandera": "gn.png"
+  },
+  {
+    "nombre": "Guadalupe",
+    "bandera": "gp.png"
+  },
+  {
+    "nombre": "Guinea Ecuatorial",
+    "bandera": "gq.png"
+  },
+  {
+    "nombre": "Grecia",
+    "bandera": "gr.png"
+  },
+  {
+    "nombre": "Islas Georgias del Sur",
+    "bandera": "gs.png"
+  },
+  {
+    "nombre": "Guatemala",
+    "bandera": "gt.png"
+  },
+  {
+    "nombre": "Guam",
+    "bandera": "gu.png"
+  },
+  {
+    "nombre": "Guinea-Bisáu",
+    "bandera": "gw.png"
+  },
+  {
+    "nombre": "Guyana",
+    "bandera": "gy.png"
+  },
+  {
+    "nombre": "Hong Kong",
+    "bandera": "hk.png"
+  },
+  {
+    "nombre": "Islas Heard y McDonald",
+    "bandera": "hm.png"
+  },
+  {
+    "nombre": "Honduras",
+    "bandera": "hn.png"
+  },
+  {
+    "nombre": "Croacia",
+    "bandera": "hr.png"
+  },
+  {
+    "nombre": "Haití",
+    "bandera": "ht.png"
+  },
+  {
+    "nombre": "Hungría",
+    "bandera": "hu.png"
+  },
+  {
+    "nombre": "Indonesia",
+    "bandera": "id.png"
+  },
+  {
+    "nombre": "Irlanda",
+    "bandera": "ie.png"
+  },
+  {
+    "nombre": "Israel",
+    "bandera": "il.png"
+  },
+  {
+    "nombre": "Isla de Man",
+    "bandera": "im.png"
+  },
+  {
+    "nombre": "India",
+    "bandera": "in.png"
+  },
+  {
+    "nombre": "Territorio Británico del Océano Índico",
+    "bandera": "io.png"
+  },
+  {
+    "nombre": "Irak",
+    "bandera": "iq.png"
+  },
+  {
+    "nombre": "Irán",
+    "bandera": "ir.png"
+  },
+  {
+    "nombre": "Islandia",
+    "bandera": "is.png"
+  },
+  {
+    "nombre": "Italia",
+    "bandera": "it.png"
+  },
+  {
+    "nombre": "Jersey",
+    "bandera": "je.png"
+  },
+  {
+    "nombre": "Jamaica",
+    "bandera": "jm.png"
+  },
+  {
+    "nombre": "Jordania",
+    "bandera": "jo.png"
+  },
+  {
+    "nombre": "Japón",
+    "bandera": "jp.png"
+  },
+  {
+    "nombre": "Kenia",
+    "bandera": "ke.png"
+  },
+  {
+    "nombre": "Kirguistán",
+    "bandera": "kg.png"
+  },
+  {
+    "nombre": "Camboya",
+    "bandera": "kh.png"
+  },
+  {
+    "nombre": "Kiribati",
+    "bandera": "ki.png"
+  },
+  {
+    "nombre": "Comoras",
+    "bandera": "km.png"
+  },
+  {
+    "nombre": "San Cristóbal y Nieves",
+    "bandera": "kn.png"
+  },
+  {
+    "nombre": "Corea del Norte",
+    "bandera": "kp.png"
+  },
+  {
+    "nombre": "Corea del Sur",
+    "bandera": "kr.png"
+  },
+  {
+    "nombre": "Kuwait",
+    "bandera": "kw.png"
+  },
+  {
+    "nombre": "Islas Caimán",
+    "bandera": "ky.png"
+  },
+  {
+    "nombre": "Kazajistán",
+    "bandera": "kz.png"
+  },
+  {
+    "nombre": "Laos",
+    "bandera": "la.png"
+  },
+  {
+    "nombre": "Líbano",
+    "bandera": "lb.png"
+  },
+  {
+    "nombre": "Santa Lucía",
+    "bandera": "lc.png"
+  },
+  {
+    "nombre": "Liechtenstein",
+    "bandera": "li.png"
+  },
+  {
+    "nombre": "Sri Lanka",
+    "bandera": "lk.png"
+  },
+  {
+    "nombre": "Liberia",
+    "bandera": "lr.png"
+  },
+  {
+    "nombre": "Lesoto",
+    "bandera": "ls.png"
+  },
+  {
+    "nombre": "Lituania",
+    "bandera": "lt.png"
+  },
+  {
+    "nombre": "Luxemburgo",
+    "bandera": "lu.png"
+  },
+  {
+    "nombre": "Letonia",
+    "bandera": "lv.png"
+  },
+  {
+    "nombre": "Libia",
+    "bandera": "ly.png"
+  },
+  {
+    "nombre": "Marruecos",
+    "bandera": "ma.png"
+  },
+  {
+    "nombre": "Mónaco",
+    "bandera": "mc.png"
+  },
+  {
+    "nombre": "Moldavia",
+    "bandera": "md.png"
+  },
+  {
+    "nombre": "Montenegro",
+    "bandera": "me.png"
+  },
+  {
+    "nombre": "San Martín (Francia)",
+    "bandera": "mf.png"
+  },
+  {
+    "nombre": "Madagascar",
+    "bandera": "mg.png"
+  },
+  {
+    "nombre": "Islas Marshall",
+    "bandera": "mh.png"
+  },
+  {
+    "nombre": "Macedonia del Norte",
+    "bandera": "mk.png"
+  },
+  {
+    "nombre": "Malí",
+    "bandera": "ml.png"
+  },
+  {
+    "nombre": "Birmania",
+    "bandera": "mm.png"
+  },
+  {
+    "nombre": "Mongolia",
+    "bandera": "mn.png"
+  },
+  {
+    "nombre": "Macao",
+    "bandera": "mo.png"
+  },
+  {
+    "nombre": "Islas Marianas del Norte",
+    "bandera": "mp.png"
+  },
+  {
+    "nombre": "Martinica",
+    "bandera": "mq.png"
+  },
+  {
+    "nombre": "Mauritania",
+    "bandera": "mr.png"
+  },
+  {
+    "nombre": "Montserrat",
+    "bandera": "ms.png"
+  },
+  {
+    "nombre": "Malta",
+    "bandera": "mt.png"
+  },
+  {
+    "nombre": "Mauricio",
+    "bandera": "mu.png"
+  },
+  {
+    "nombre": "Maldivas",
+    "bandera": "mv.png"
+  },
+  {
+    "nombre": "Malaui",
+    "bandera": "mw.png"
+  },
+  {
+    "nombre": "México",
+    "bandera": "mx.png"
+  },
+  {
+    "nombre": "Malasia",
+    "bandera": "my.png"
+  },
+  {
+    "nombre": "Mozambique",
+    "bandera": "mz.png"
+  },
+  {
+    "nombre": "Namibia",
+    "bandera": "na.png"
+  },
+  {
+    "nombre": "Nueva Caledonia",
+    "bandera": "nc.png"
+  },
+  {
+    "nombre": "Níger",
+    "bandera": "ne.png"
+  },
+  {
+    "nombre": "Isla Norfolk",
+    "bandera": "nf.png"
+  },
+  {
+    "nombre": "Nigeria",
+    "bandera": "ng.png"
+  },
+  {
+    "nombre": "Nicaragua",
+    "bandera": "ni.png"
+  },
+  {
+    "nombre": "Países Bajos",
+    "bandera": "nl.png"
+  },
+  {
+    "nombre": "Noruega",
+    "bandera": "no.png"
+  },
+  {
+    "nombre": "Nepal",
+    "bandera": "np.png"
+  },
+  {
+    "nombre": "Nauru",
+    "bandera": "nr.png"
+  },
+  {
+    "nombre": "Niue",
+    "bandera": "nu.png"
+  },
+  {
+    "nombre": "Nueva Zelanda",
+    "bandera": "nz.png"
+  },
+  {
+    "nombre": "Omán",
+    "bandera": "om.png"
+  },
+  {
+    "nombre": "Panamá",
+    "bandera": "pa.png"
+  },
+  {
+    "nombre": "Perú",
+    "bandera": "pe.png"
+  },
+  {
+    "nombre": "Polinesia Francesa",
+    "bandera": "pf.png"
+  },
+  {
+    "nombre": "Papúa Nueva Guinea",
+    "bandera": "pg.png"
+  },
+  {
+    "nombre": "Filipinas",
+    "bandera": "ph.png"
+  },
+  {
+    "nombre": "Pakistán",
+    "bandera": "pk.png"
+  },
+  {
+    "nombre": "Polonia",
+    "bandera": "pl.png"
+  },
+  {
+    "nombre": "San Pedro y Miquelón",
+    "bandera": "pm.png"
+  },
+  {
+    "nombre": "Islas Pitcairn",
+    "bandera": "pn.png"
+  },
+  {
+    "nombre": "Puerto Rico",
+    "bandera": "pr.png"
+  },
+  {
+    "nombre": "Palestina",
+    "bandera": "ps.png"
+  },
+  {
+    "nombre": "Portugal",
+    "bandera": "pt.png"
+  },
+  {
+    "nombre": "Palaos",
+    "bandera": "pw.png"
+  },
+  {
+    "nombre": "Paraguay",
+    "bandera": "py.png"
+  },
+  {
+    "nombre": "Catar",
+    "bandera": "qa.png"
+  },
+  {
+    "nombre": "Reunión",
+    "bandera": "re.png"
+  },
+  {
+    "nombre": "Rumania",
+    "bandera": "ro.png"
+  },
+  {
+    "nombre": "Serbia",
+    "bandera": "rs.png"
+  },
+  {
+    "nombre": "Rusia",
+    "bandera": "ru.png"
+  },
+  {
+    "nombre": "Ruanda",
+    "bandera": "rw.png"
+  },
+  {
+    "nombre": "Arabia Saudita",
+    "bandera": "sa.png"
+  },
+  {
+    "nombre": "Islas Salomón",
+    "bandera": "sb.png"
+  },
+  {
+    "nombre": "Seychelles",
+    "bandera": "sc.png"
+  },
+  {
+    "nombre": "Sudán",
+    "bandera": "sd.png"
+  },
+  {
+    "nombre": "Suecia",
+    "bandera": "se.png"
+  },
+  {
+    "nombre": "Singapur",
+    "bandera": "sg.png"
+  },
+  {
+    "nombre": "Santa Elena",
+    "bandera": "sh.png"
+  },
+  {
+    "nombre": "Eslovenia",
+    "bandera": "si.png"
+  },
+  {
+    "nombre": "Svalbard y Jan Mayen",
+    "bandera": "sj.png"
+  },
+  {
+    "nombre": "Eslovaquia",
+    "bandera": "sk.png"
+  },
+  {
+    "nombre": "Sierra Leona",
+    "bandera": "sl.png"
+  },
+  {
+    "nombre": "San Marino",
+    "bandera": "sm.png"
+  },
+  {
+    "nombre": "Senegal",
+    "bandera": "sn.png"
+  },
+  {
+    "nombre": "Somalia",
+    "bandera": "so.png"
+  },
+  {
+    "nombre": "Surinam",
+    "bandera": "sr.png"
+  },
+  {
+    "nombre": "Sudán del Sur",
+    "bandera": "ss.png"
+  },
+  {
+    "nombre": "Santo Tomé y Príncipe",
+    "bandera": "st.png"
+  },
+  {
+    "nombre": "El Salvador",
+    "bandera": "sv.png"
+  },
+  {
+    "nombre": "San Martín (Países Bajos)",
+    "bandera": "sx.png"
+  },
+  {
+    "nombre": "Siria",
+    "bandera": "sy.png"
+  },
+  {
+    "nombre": "Esuatini",
+    "bandera": "sz.png"
+  },
+  {
+    "nombre": "Islas Turcas y Caicos",
+    "bandera": "tc.png"
+  },
+  {
+    "nombre": "Chad",
+    "bandera": "td.png"
+  },
+  {
+    "nombre": "Tierras Australes y Antárticas Francesas",
+    "bandera": "tf.png"
+  },
+  {
+    "nombre": "Togo",
+    "bandera": "tg.png"
+  },
+  {
+    "nombre": "Tailandia",
+    "bandera": "th.png"
+  },
+  {
+    "nombre": "Tayikistán",
+    "bandera": "tj.png"
+  },
+  {
+    "nombre": "Tokelau",
+    "bandera": "tk.png"
+  },
+  {
+    "nombre": "Timor Oriental",
+    "bandera": "tl.png"
+  },
+  {
+    "nombre": "Turkmenistán",
+    "bandera": "tm.png"
+  },
+  {
+    "nombre": "Túnez",
+    "bandera": "tn.png"
+  },
+  {
+    "nombre": "Tonga",
+    "bandera": "to.png"
+  },
+  {
+    "nombre": "Turquía",
+    "bandera": "tr.png"
+  },
+  {
+    "nombre": "Trinidad y Tobago",
+    "bandera": "tt.png"
+  },
+  {
+    "nombre": "Tuvalu",
+    "bandera": "tv.png"
+  },
+  {
+    "nombre": "Taiwán",
+    "bandera": "tw.png"
+  },
+  {
+    "nombre": "Tanzania",
+    "bandera": "tz.png"
+  },
+  {
+    "nombre": "Ucrania",
+    "bandera": "ua.png"
+  },
+  {
+    "nombre": "Uganda",
+    "bandera": "ug.png"
+  },
+  {
+    "nombre": "Islas Ultramarinas Menores de EE.UU.",
+    "bandera": "um.png"
+  },
+  {
+    "nombre": "Estados Unidos",
+    "bandera": "us.png"
+  },
+  {
+    "nombre": "Uruguay",
+    "bandera": "uy.png"
+  },
+  {
+    "nombre": "Uzbekistán",
+    "bandera": "uz.png"
+  },
+  {
+    "nombre": "Ciudad del Vaticano",
+    "bandera": "va.png"
+  },
+  {
+    "nombre": "San Vicente y las Granadinas",
+    "bandera": "vc.png"
+  },
+  {
+    "nombre": "Venezuela",
+    "bandera": "ve.png"
+  },
+  {
+    "nombre": "Islas Vírgenes Británicas",
+    "bandera": "vg.png"
+  },
+  {
+    "nombre": "Islas Vírgenes de los EE.UU.",
+    "bandera": "vi.png"
+  },
+  {
+    "nombre": "Vietnam",
+    "bandera": "vn.png"
+  },
+  {
+    "nombre": "Vanuatu",
+    "bandera": "vu.png"
+  },
+  {
+    "nombre": "Wallis y Futuna",
+    "bandera": "wf.png"
+  },
+  {
+    "nombre": "Samoa",
+    "bandera": "ws.png"
+  },
+  {
+    "nombre": "Kosovo",
+    "bandera": "xk.png"
+  },
+  {
+    "nombre": "Yemen",
+    "bandera": "ye.png"
+  },
+  {
+    "nombre": "Mayotte",
+    "bandera": "yt.png"
+  },
+  {
+    "nombre": "Sudáfrica",
+    "bandera": "za.png"
+  },
+  {
+    "nombre": "Zambia",
+    "bandera": "zm.png"
+  },
+  {
+    "nombre": "Zimbabue",
+    "bandera": "zw.png"
+  }
+]
