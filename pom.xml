@@ -78,6 +78,9 @@
                             <pattern>.*\.json$</pattern>
                         </resource>
                     </resources>
+                    <runtimeArgs>
+                        <arg>-Dprism.order=sw</arg>
+                    </runtimeArgs>
 
                 </configuration>
             </plugin>
