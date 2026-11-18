@@ -58,6 +58,9 @@
                     <mainClass>aplicacion.App</mainClass>
                     <target>${gluonfx.target}</target>
                     
+                    <!-- ¡AQUÍ ESTÁ LA LÍNEA QUE FALTABA! -->
+                    <androidManifest>${project.basedir}/src/android/AndroidManifest.xml</androidManifest>
+
                     <!-- 1. Reflexión para Gson -->
                     <reflectionList>
                         <list>aplicacion.Pais</list>
@@ -66,7 +69,7 @@
                         <list>aplicacion.PreguntaCapital</list>
                     </reflectionList>
 
-                    <!-- 2. ¡AQUÍ ESTÁ LA SOLUCIÓN! Incluir recursos en el nativo -->
+                    <!-- 2. Incluir recursos en el nativo -->
                     <resources>
                         <resource>
                             <pattern>.*\.css$</pattern>
