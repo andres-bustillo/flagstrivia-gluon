@@ -55,7 +55,6 @@
                 <configuration>
                     <mainClass>aplicacion.App</mainClass>
                     <target>${gluonfx.target}</target>
-                    <graalvmHome>/Users/andy/Downloads/graalvm-java23-darwin-aarch64-gluon-23+25.1-dev/Contents/Home</graalvmHome>
                 </configuration>
             </plugin>
         </plugins>
