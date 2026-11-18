@@ -15,7 +15,10 @@ jobs:
       - name: Setup Gluon's GraalVM
         uses: gluonhq/setup-graalvm@master
         with:
+          graalvm: '22.1.0.1-Final' # or a known valid version tag
           jdk: 'java17'
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
