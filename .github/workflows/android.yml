@@ -15,10 +15,9 @@ jobs:
       - name: Setup Gluon's GraalVM
         uses: gluonhq/setup-graalvm@master
         with:
-          graalvm: '22.3.3'
           jdk: 'java17'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Corregido el cierre de llave
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # 2. Configurar Java 17 (para que coincida con GraalVM)
       - name: Setup Java
